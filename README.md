@@ -1,4 +1,4 @@
-# Simple Navidrome Dashboard
+# Navidrome Dashboard
 A lightweight, self-hosted multi-user dashboard for Navidrome.  
 **Aggregates play counts, filters duplicates, sorts your top tracks, and serves a clean, mobile-responsive HTML page via Nginx.**
 
