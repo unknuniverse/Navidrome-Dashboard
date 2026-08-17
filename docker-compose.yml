@@ -1,0 +1,9 @@
+services:
+  dashboard:
+    image: nginx:alpine
+    container_name: music-dashboard
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    volumes:
+      - "./public:/usr/share/nginx/html:ro"
