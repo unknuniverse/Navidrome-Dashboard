@@ -43,3 +43,6 @@ Open your crontab editor:
 Add the following line (making sure to replace `/home/username/dashboard` with your absolute project path and `/path/to/your/navidrome/data` with your actual Navidrome data path):
 
 `0 0 * * * docker run --rm -v /home/username/dashboard:/app -v /path/to/your/navidrome/data:/nddata -e NAVIDROME_DB_PATH="/nddata/navidrome.db" -e OUTPUT_HTML_PATH="/app/public/index.html" python:3.11-slim python /app/dashboard.py`
+
+
+https://unknownuniverse.uk/
