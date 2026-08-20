@@ -44,5 +44,6 @@ Add the following line (making sure to replace `/home/username/dashboard` with y
 
 `0 0 * * * docker run --rm -v /home/username/dashboard:/app -v /path/to/your/navidrome/data:/nddata -e NAVIDROME_DB_PATH="/nddata/navidrome.db" -e OUTPUT_HTML_PATH="/app/public/index.html" python:3.11-slim python /app/dashboard.py`
 
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/theunknownuniverse)
 
 https://unknownuniverse.uk/
